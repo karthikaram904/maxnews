@@ -90,12 +90,21 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between px-0 px-lg-3" id="navbarCollapse">
                 <div class="navbar-nav mr-auto py-0">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="home-2.html" class="nav-item nav-link">Home2</a>
-                    <a href="category.html" class="nav-item nav-link">Category</a>
-                    <a href="single.html" class="nav-item nav-link">News</a>
-                    
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+					<div class="nav-item dropdown">
+      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+        Home
+      </a>
+      <div class="dropdown-menu">
+        <a href="index.html" class="dropdown-item">Main News</a>
+        <a href="home-2.html" class="dropdown-item">News Hub</a>
+      </div>
+    </div>
+
+    <a href="category.html" class="nav-link">Category</a>
+    <a href="single.html" class="nav-link">News</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+
+  </div>
 
                 </div>
                 <div class="input-group ml-auto d-none d-lg-flex" style="width: 100%; max-width: 300px;">
@@ -256,5 +265,6 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>
+
 
 </html>

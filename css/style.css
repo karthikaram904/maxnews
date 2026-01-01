@@ -10092,7 +10092,4 @@ background: #f5f7fb;
 .nav-link.text-body.small.active {
   color: #fff !important;
 }
-.navbar-nav .dropdown-menu
-{
-  display:block !important;
-}
+

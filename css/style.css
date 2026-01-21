@@ -10000,7 +10000,7 @@ body.dark .theme-btn {
 }
 /* Login Box */
         .login-wrapper {
-            min-height: 80vh;
+            min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;

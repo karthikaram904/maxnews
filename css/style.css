@@ -10135,6 +10135,9 @@ background: #f5f7fb;
   .navbar-collapse .input-group {
   display: none !important;
 }
+  .navbar-brand .display-4 {
+    font-size: 39px !important;
+  }
 }
 .dropdown-menu {
   background-color: #111;

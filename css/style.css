@@ -10128,6 +10128,10 @@ background: #f5f7fb;
   .dropdown-item {
     padding: 12px 20px;
   }
+  .navbar-nav.ml-n2 {
+  width: 100%;
+  display: contents;
+}
 }
 .dropdown-menu {
   background-color: #111;

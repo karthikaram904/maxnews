@@ -10094,23 +10094,24 @@ background: #f5f7fb;
 }
 
 @media (max-width: 1024px) {
+
     .navbar {
         position: relative;
     }
 
-    .navbar-icons {
+    .navbar-actions {
         position: absolute;
         top: 12px;
         right: 12px;
         display: flex;
         align-items: center;
-        gap: 10px;   /* 🔥 overlap fix */
-        z-index: 1000;
+        gap: 10px;
+        z-index: 1050;
     }
 
     .navbar-toggler {
-        position: static;  /* ❗ important */
-        margin: 0;
+        position: static;
+        padding: 6px 10px;
     }
 
     .theme-toggle,
@@ -10120,4 +10121,3 @@ background: #f5f7fb;
         cursor: pointer;
     }
 }
-

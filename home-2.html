@@ -88,29 +88,36 @@
     <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-2 py-lg-0 px-lg-5">
             <a href="index.html" class="navbar-brand d-block d-lg-none">
-                <h1 class="m-0 display-4 text-uppercase text-primary">MAX<span class="text-white font-weight-normal">News</span></h1>
+                <h1 class="m-0 display-4 text-uppercase text-primary">Max<span class="text-white font-weight-normal">News</span></h1>
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between px-0 px-lg-3" id="navbarCollapse">
                 <div class="navbar-nav mr-auto py-0">
-					<div class="nav-item dropdown">
-      <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">
-        Home
-      </a>
-      <div class="dropdown-menu">
-        <a href="index.html" class="dropdown-item">Main News</a>
-        <a href="home-2.html" class="dropdown-item active">News Hub</a>
-      </div>
+
+    <div class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle active"
+           id="homeDropdown"
+           role="button"
+           data-toggle="dropdown"
+           aria-haspopup="true"
+           aria-expanded="false">
+            Home
+        </a>
+
+        <div class="dropdown-menu rounded-0 m-0" aria-labelledby="homeDropdown">
+            <a class="dropdown-item" href="index.html">Main News</a>
+            <a class="dropdown-item" href="home-2.html">News Hub</a>
+        </div>
     </div>
 
-    <a href="category.html" class="nav-link">Category</a>
-    <a href="single.html" class="nav-link">News</a>
-    <a href="contact.html" class="nav-link">Contact</a>
+    <a href="category.html" class="nav-item nav-link">Category</a>
+    <a href="single.html" class="nav-item nav-link">News</a>
+    <a href="contact.html" class="nav-item nav-link">Contact</a>
 
-  </div>
-            </div>       
+</div>
+
                 <div class="input-group ml-auto d-none d-lg-flex" style="width: 100%; max-width: 300px;">
                     <input type="text" class="form-control border-0" placeholder="Keyword">
                     <div class="input-group-append">
@@ -118,7 +125,7 @@
                                 class="fa fa-search"></i></button>
                     </div>
                 </div>
-                <div class="button-group d-none d-lg-flex">
+                <div class="button-group ml-auto d-lg-flex">
                     <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">
                     🌙
                     </button>

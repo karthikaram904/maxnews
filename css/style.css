@@ -10095,11 +10095,29 @@ background: #f5f7fb;
 
 @media (max-width: 1024px) {
     .navbar {
-        position: relative;  /* ensure top placement */
+        position: relative;
     }
-    .navbar-toggler {
+
+    .navbar-icons {
         position: absolute;
-        top: 10px;
-        right: 10px;
+        top: 12px;
+        right: 12px;
+        display: flex;
+        align-items: center;
+        gap: 10px;   /* 🔥 overlap fix */
+        z-index: 1000;
+    }
+
+    .navbar-toggler {
+        position: static;  /* ❗ important */
+        margin: 0;
+    }
+
+    .theme-toggle,
+    .rtl-toggle {
+        background: transparent;
+        border: none;
+        cursor: pointer;
     }
 }
+

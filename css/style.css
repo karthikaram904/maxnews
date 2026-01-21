@@ -10132,6 +10132,9 @@ background: #f5f7fb;
   width: 100%;
   display: contents;
 }
+  .navbar-collapse .input-group {
+  display: none !important;
+}
 }
 .dropdown-menu {
   background-color: #111;
